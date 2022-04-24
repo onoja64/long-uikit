@@ -3373,9 +3373,9 @@ var useKonamiCheatCode = function (matchedCodeHandler) {
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#101961",
-    primaryBright: "#101961",
-    primaryDark: "#101961",
+    primary: "#111f8c",
+    primaryBright: "#111f8c",
+    primaryDark: "#111f8c",
     secondary: "#1a1873",
     success: "#31D0AA",
     warning: "#FFB237",
@@ -3388,7 +3388,7 @@ var additionalColors = {
     bronze: "#E7974D",
 };
 var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#f1f0f0", backgroundDisabled: "#E9EAEB", backgroundAlt: "#FFFFFF", cardBorder: "#E7E3EB", contrast: "#191326", dropdown: "#F6F6F6", dropdownDeep: "#EEEEEE", invertedContrast: "#FFFFFF", input: "#ebf4ea", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#021159", textDisabled: "#BDC2C4", textSubtle: "#1e5951", disabled: "#E9EAEB", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
+        bubblegum: "linear-gradient(139.73deg, #D4D9FF 0%, #F3EFFF 100%)",
         inverseBubblegum: "linear-gradient(139.73deg, #F3EFFF 0%, #E5FDFF 100%)",
         cardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
         blue: "linear-gradient(180deg, #A7E8F1 0%, #94E1F2 100%)",
@@ -3396,7 +3396,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #4db254 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#101961", background: "#343135", backgroundDisabled: "#2832a3", backgroundAlt: "#27262c", cardBorder: "#383241", contrast: "#FFFFFF", dropdown: "#1E1D20", dropdownDeep: "#100C18", invertedContrast: "#132026", input: "#D1A5041", inputSecondary: "#262130", primaryDark: "#32CD32", tertiary: "#2832a3", text: "#FFFFFF", textDisabled: "#cccccc", textSubtle: "#c9c4d4", disabled: "#524B63", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#111f8c", background: "#343135", backgroundDisabled: "#2832a3", backgroundAlt: "#27262c", cardBorder: "#383241", contrast: "#FFFFFF", dropdown: "#1E1D20", dropdownDeep: "#100C18", invertedContrast: "#132026", input: "#D1A5041", inputSecondary: "#262130", primaryDark: "#32CD32", tertiary: "#2832a3", text: "#FFFFFF", textDisabled: "#cccccc", textSubtle: "#c9c4d4", disabled: "#524B63", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #262d33 100%)",
         inverseBubblegum: "linear-gradient(139.73deg, #2a4f54 0%, #315c5c 100%)",
         cardHeader: "linear-gradient(166.77deg, #3b4a55 0%, #262d33 100%)",
