@@ -1,5 +1,5 @@
 {
-  "name": "@longevity-intime/uikit",
+  "name": "@onoja64/longuikit",
   "version": "0.2.3",
   "description": "Set of UI components for Longevity Intime projects",
   "main": "dist/index.cjs.js",
